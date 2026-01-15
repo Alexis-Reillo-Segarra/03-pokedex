@@ -38,6 +38,6 @@ http://localhost:3000/api/v2/seed
 
 <div align="center">
 <a href="#" style="cursor: default; pointer-events: none;">
-<img src="https://images.wikidexcdn.net/mwuploads/wikidex/e/eb/latest/20101006000302/Eelektross_icon.gif">
+<img src="https://images.wikidexcdn.net/mwuploads/wikidex/e/eb/latest/20101006000302/Eelektross_icon.gif" alt="eleektross">
 </a>
 </div>

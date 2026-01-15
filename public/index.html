@@ -6,11 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @keyframes eelektross-swim {
+            0% {
+                left: 0px;
+                transform: scaleX(-1);
+            }
+
+            45% {
+                left: calc(100% - 80px);
+                transform: scaleX(-1);
+            }
+
+            47% {
+                left: calc(100% - 80px);
+                transform: scaleX(1);
+            }
+
+            92% {
+                left: 0px;
+                transform: scaleX(1);
+            }
+
+            94% {
+                left: 0px;
+                transform: scaleX(-1);
+            }
+
+            100% {
+                left: 0px;
+                transform: scaleX(-1);
+            }
+        }
+
+        .eelektross {
+            position: fixed;
+            bottom: 20px;
+            left: 0px;
+            animation: eelektross-swim 15s linear infinite;
+            z-index: 1000;
+        }
+
+        .eelektross img {
+            width: 80px;
+            height: auto;
+            image-rendering: pixelated;
+        }
+    </style>
 </head>
 
 <body class="bg-gray-800">
     <div class="bg-gray-800 w-full h-screen flex flex-col items-center ">
         <h1 class="text-white text-4xl"> Esta es mi Web</h1>
+    </div>
+
+    <!-- Eelektross animado -->
+    <div class="eelektross">
+        <img src="https://images.wikidexcdn.net/mwuploads/wikidex/e/eb/latest/20101006000302/Eelektross_icon.gif"
+            alt="Eelektross">
     </div>
 
 </body>
